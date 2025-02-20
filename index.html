@@ -30,6 +30,7 @@
 
   <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -67,150 +68,186 @@
   <!-- Navbar End -->
 
   <!-- Carousel Start -->
-  <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
-    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="w-100" src="img/carousel-1.jpg" alt="Image" />
-          <div class="carousel-caption">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-6">
-                  <h1 class="display-3 text-dark mb-4 animated slideInDown">
-                    Tu salud es nuestra prioridad.
-                  </h1>
-                  <p class="fs-5 text-body mb-5">
-                    Encuentra el seguro de salud ideal para ti y tu familia, con cobertura de Obamacare, Medicare y
-                    seguros complementarios.
-                  </p>
-                  <a href="" class="btn btn-gold py-3 px-5">Cotiza tu seguro de salud ahora</a>
-                </div>
+<div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
+  <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="w-100" src="img/carousel-1.png" alt="Image" />
+        <div class="carousel-caption">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-6 ms-auto custom-padding-left">
+                <h1 class="display-3 text-dark mb-4 animated slideInDown">
+                  ¡Olvídate de los gastos médicos inesperados!
+                </h1>
+                <p class="fs-5 mb-5" style="color: black;">
+                  Asegura tu tranquilidad con la póliza adecuada. Descubre nuestras opciones de seguros y protege tu economía.
+                </p>
+                <a href="" class="btn btn-gold py-3 px-5">Cotiza tu seguro de salud</a>
               </div>
             </div>
+            
           </div>
         </div>
-        <div class="carousel-item">
-          <img class="w-100" src="img/carousel-2.jpg" alt="Image" />
-          <div class="carousel-caption">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-6">
-                  <h1 class="display-3 text-dark mb-4 animated slideInDown">
-                    Asegura el futuro de tus seres queridos.
-                  </h1>
-                  <p class="fs-5 text-body mb-5">
-                    Protege a tu familia con nuestras opciones de seguros de vida: <br>
-                    ✔ Vida a término
-                    ✔ Gastos finales
-                    ✔ Vida indexada
-                    ✔ Permanente
-                  </p>
-                  <a href="" class="btn btn-gold py-3 px-5">Conoce más sobre seguros de vida</a>
-                </div>
+      </div>
+      
+      <div class="carousel-item">
+        <img class="w-100" src="img/carousel-2.jpg" alt="Image" />
+        <div class="carousel-caption">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <h1 class="display-3 text-dark mb-4 animated slideInDown">
+                  Asegura el futuro de tus seres queridos.
+                </h1>
+                <p class="fs-5 text-body mb-5">
+                  Protege a tu familia con nuestras opciones de seguros de vida: <br>
+                  ✔ Vida a término
+                  ✔ Gastos finales
+                  ✔ Vida indexada
+                  ✔ Permanente
+                </p>
+                <a href="" class="btn btn-gold py-3 px-5">Conoce más sobre seguros de vida</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+
+    <!-- Controles del Carrusel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+</div>
+
   <!-- Carousel End -->
-
-  <!-- About Start -->
-  <div class="container-xxl py-5">
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="position-relative overflow-hidden rounded ps-5 pt-5 h-100" style="min-height: 400px">
-            <img class="position-absolute w-100 h-100" src="img/seguro.png" alt="" style="object-fit: cover" />
-            <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3" style="width: 200px; height: 200px">
-              <div class="d-flex flex-column justify-content-center text-center rounded h-100 p-3"
-                style="background-color: rgb(36, 43, 49); top: 0px;">
-                <h1 class="text-white mb-0">5</h1>
-                <h2 class="text-white">Años</h2>
-                <h5 class="text-white mb-0">Experiencia</h5>
-              </div>
-            </div>
-          </div>
+  <div class="container-fluid overflow-hidden px-lg-0" style="background-color: #fff;">
+    <div class="container mt-3">
+      <div id="slick" class="slick-container">
+        <div class="slide">
+          <img src="assets/img/empresas/aetna.webp" class="w-100 img-fluid" />
         </div>
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="h-100">
-            <h1 class="display-6 mb-5">
-              Estamos aquí para ayudarte a proteger lo que más importa
-            </h1>
-            <p class="fs-5 mb-4">
-              En BMKF Insurance, te ofrecemos soluciones de seguros diseñadas a tu medida, brindándote tranquilidad y
-              seguridad para ti y tu familia.
-            </p>
-            <div class="row g-4 mb-4">
-              <div class="col-sm-6">
-                <div class="d-flex align-items-center bg-gold rounded h-100 p-3">
-                  <img class="flex-shrink-0 me-3" src="img/icon/icon-01-light.png" alt="Seguro de Salud" />
-                  <h5 class="mb-0" style="color: white;">Cobertura Médica Completa</h5>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="d-flex align-items-center bg-gold rounded h-100 p-3">
-                  <img class="flex-shrink-0 me-3" src="img/icon/icon-10-light.png" alt="Seguro de Vida" />
-                  <h5 class="mb-0" style="color: white;">Seguros de Vida e Inversión</h5>
-                </div>
-              </div>
-            </div>
-            <p class="mb-4">
-              Ofrecemos planes de <strong>Obamacare, Medicare y seguros complementarios</strong> así como
-              <strong>seguros de vida flexibles</strong> para proteger tu futuro y el de los tuyos.
-            </p>
-          </div>
+    
+        <div class="slide">
+          <img src="assets/img/empresas/aig.png" class="w-100 img-fluid" />
         </div>
-
+    
+        <div class="slide">
+          <img src="assets/img/empresas/ethos.png" class="w-100 img-fluid" />
+        </div>
+    
+        <div class="slide">
+          <img src="assets/img/empresas/obamacare.webp" class="w-100 img-fluid" />
+        </div>
+    
+        <div class="slide">
+          <img src="assets/img/empresas/opensi.png" class="w-100 img-fluid" />
+        </div>
+    
+        <div class="slide">
+          <img src="assets/img/empresas/prosperity.png" class="w-100 img-fluid" />
+        </div>
+    
+        <div class="slide">
+          <img src="assets/img/empresas/transamerica.webp" class="w-100 img-fluid" />
+        </div>
       </div>
     </div>
   </div>
+  <!-- About Start -->
+<!-- Sección con imagen y ícono de reproducción -->
+<div class="container-xxl py-5">
+  <div class="container">
+    <div class="row g-5">
+            
+      <!-- Información del lado derecho -->
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+        <div class="h-100">
+          <h1 class="display-6 mb-5">
+            En este video, aprende cómo un seguro de salud puede transformar tu vida.
+          </h1>
+          <h3 class=" mb-5">
+            Este es el video que no puedes perderte
+          </h3>
+          <div class="row g-4 mb-4">
+            <div class="col-12">
+              <div class="d-flex align-items-center">
+                <img
+                  class="flex-shrink-0 me-3 img-fluid"
+                  src="img/video.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Aquí se puede colocar más contenido, si es necesario -->
+        </div>
+      </div>
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="position-relative overflow-hidden rounded h-100" style="min-height: 400px">          
+          <!-- Imagen de fondo -->
+          <img class="position-absolute w-100 h-100" src="img/seguro.png" alt="" style="border-radius: 100px;" />
+          
+          <!-- Ícono de reproducción sobre la imagen -->
+          <button type="button" class="btn-play" data-bs-toggle="modal" data-bs-target="#videoModal">
+            <i class="fa fa-play-circle fa-3x text-white"></i>
+            <div class="ripple"></div> <!-- Círculo que parpadea -->
+          </button>          
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal para mostrar el video -->
+<!-- Modal para mostrar el video local -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="videoModalLabel">Cónoce más</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body align-items-center text-center">
+        <!-- Contenedor del video local -->
+        <video width="50%" height="auto" controls>
+          <source src="assets/video/IUL es posible.mp4" type="video/mp4">
+          Tu navegador no soporta el formato de video.
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+
+
   <!-- About End -->
 
   <!-- Facts Start -->
   <div class="container-fluid overflow-hidden my-5 px-lg-0">
     <div class="container facts px-lg-0">
       <div class="row g-0 mx-lg-0">
-        <div class="col-lg-6 facts-text wow fadeIn" data-wow-delay="0.1s">
-          <div class="h-100 px-4 ps-lg-0">
-            <h1 class="text-white mb-4">Sobre Nosotros</h1>
-            <h3 class="text-gold">Misión</h3>
-            <p class="text-light mb-5">
-              Brindar a nuestros clientes protección y seguridad financiera a
-              través de seguros de salud y vida adaptados a sus necesidades,
-              con un servicio personalizado y transparente.
-            </p>
-            <h3 class="text-gold">Nuestro Visión</h3>
-            <p class="text-light mb-5">
-              Proteger a nuestros clientes de riesgos, brindar beneficios financieros,
-              y ayudarles a tomar decisiones informadas sobre su futuro.
+        <div class="col-lg-5 facts-counter wow fadeIn" data-wow-delay="0.5s">
+          <div class="px-4 pe-lg-0 align-items-center">
+            <img src="img/agentes.png" class="img-fluid" alt="">
           </div>
         </div>
-        <div class="col-lg-6 facts-counter wow fadeIn" data-wow-delay="0.5s">
-          <div class="h-100 px-4 pe-lg-0">
-            <div class="row g-5">
-              <div class="col-sm-6">
-                <h3 class="">✔Compromiso</h3>
-              </div>
-              <div class="col-sm-6">
-                <h3 class="">✔Transparencia</h3>
-              </div>
-              <div class="col-sm-6">
-                <h3 class="">✔Confianza</h3>
-              </div>
-              <div class="col-sm-6">
-                <h3 class="">✔Responsabilidad</h3>
-              </div>
-            </div>
+        <div class="col-lg-7 facts-text wow fadeIn" data-wow-delay="0.1s">
+          <div class="h-100 px-4 ps-lg-0">
+            <h1 class="text-white mb-4">BMKF Insurance</h1>
+            <p class="text-light mb-5" style="text-align: justify;">
+              Somos una agencia legalmente constituida y respaldada por profesionales certificados en el campo de los seguros. Somos más que una agencia, somos tu socio de confianza para proteger lo que más valoras.
+              <br>Con nuestra marca registrada y años de experiencia en el mercado, hemos ganado la confianza de innumerables clientes satisfechos. Nuestro equipo de licenciados certificados como agentes de seguros está comprometido con brindarte el mejor servicio y asesoramiento personalizado para encontrar el seguro de salud que se ajuste a tus necesidades.
+              <br>Nuestra misión es simple pero poderosa: proteger tu bienestar y el de tu familia. Queremos que te sientas seguro y respaldado ante cualquier eventualidad médica, brindándote soluciones asequibles y efectivas.
+              <br>Si buscas una agencia de seguros que combine profesionalismo, legalidad y un trato humano no busques más. Únete a la familia de Gran Insurance y asegura un futuro saludable y protegido.
+            </p>
           </div>
         </div>
       </div>
@@ -395,7 +432,7 @@
       <div class="row g-4">
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="team-item rounded">
-            <img class="img-fluid" src="img/team-1.jpg" alt="" />
+            <img class="img-fluid" src="assets/img/michaiael.jpg" alt="" />
             <div class="text-center p-4">
               <h5>Michael Contreras</h5>
               <span>Agente</span>
@@ -414,7 +451,7 @@
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="team-item rounded">
-            <img class="img-fluid" src="img/team-2.jpg" alt="" />
+            <img class="img-fluid" src="assets/img/berfimar.jpg" alt="" />
             <div class="text-center p-4">
               <h5>Berfimar Diaz</h5>
               <span>Agente</span>
@@ -433,7 +470,7 @@
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="team-item rounded">
-            <img class="img-fluid" src="img/team-3.jpg" alt="" />
+            <img class="img-fluid" src="assets/img/yadilia.jpg" alt="" />
             <div class="text-center p-4">
               <h5>Yadilia Carvajal</h5>
               <span>Agente</span>
@@ -527,9 +564,73 @@
   <script src="lib/waypoints/waypoints.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/counterup/counterup.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <!-- Slick jQuery min -->
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   <!-- Template Javascript -->
   <script src="js/main.js"></script>
+  <script>
+    var breakpoint = {
+  // Small screen / phone
+  sm: 576,
+  // Medium screen / tablet
+  md: 768,
+  // Large screen / desktop
+  lg: 992,
+  // Extra large screen / wide desktop
+  xl: 1200
+};
+
+// slick slider
+$('#slick').slick({
+  autoplay: true,
+  autoplaySpeed: 2000,
+  pauseOnFocus: false,
+  draggable: true,
+  infinite: true,
+  dots: false,
+  arrows: false,
+  speed: 1000,
+  mobileFirst: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  responsive: [{
+      breakpoint: breakpoint.sm,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        arrows: true
+      }
+    },
+    {
+      breakpoint: breakpoint.md,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        arrows: true
+      }
+    },
+    {
+      breakpoint: breakpoint.lg,
+      settings: {
+        slidesToShow: 6,
+        slidesToScroll: 6,
+        arrows: true
+      }
+    },
+    {
+      breakpoint: breakpoint.xl,
+      settings: {
+        slidesToShow: 7,
+        slidesToScroll: 7,
+        arrows: true
+      }
+    }
+  ]
+});
+  </script>
 </body>
 
 </html>
