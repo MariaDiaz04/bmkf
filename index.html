@@ -55,7 +55,19 @@
       <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
         <a href="index.html" class="nav-item nav-link active">Home</a>
         <a href="#" class="nav-item nav-link">Conócenos</a>
-        <a href="#" class="nav-item nav-link">Nuestros servicios</a>
+        <div class="nav-item dropdown">
+          <a
+            href="#"
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            >Nuestros servicios</a
+          >
+          <div class="dropdown-menu bg-light border-0 m-0">
+            <a href="#" class="dropdown-item">Seguros de vida</a>
+            <a href="#" class="dropdown-item">Seguros de salud</a>
+            <a href="#" class="dropdown-item">Inversión</a>
+          </div>
+        </div>
         <a href="#" class="nav-item nav-link">Contáctanos</a>
       </div>
     </div>
@@ -266,91 +278,73 @@
       <div class="row g-4 justify-content-center">
         <!-- Seguro de Vida -->
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="service-item rounded h-100 p-5" style="background-color: #242b31;">
-            <div class="d-flex align-items-center ms-n5 mb-4">
-              <div class="service-icon flex-shrink-0 bg-gold rounded-end me-4" style="background-color: #09096d;">
-                <img class="img-fluid" src="img/icon/icon-10-light.png" alt="Seguro de Vida" />
-              </div>
-              <h4 class="mb-0" style="color:white">Seguros de Vida</h4>
+          <div class="service-item rounded h-100 p-5 text-center position-relative" style="background-color: #242b31; background-image: url('assets/img/vida.png'); background-size: cover; background-position: center;">
+            
+            <!-- Título -->
+            <h4 class="mb-3 titulo-hover">Seguros de Vida</h4>
+            
+            <!-- Ícono centrado debajo del título -->
+            <div class="service-icon mx-auto mb-3">
+              <img class="img-fluid" src="img/icon/icon-10-primary.png" alt="Seguro de Vida" style="max-width: 80px;">
             </div>
-            <p class="mb-4" style="color: white;">
-              Protege a tu familia con seguros de vida flexibles: término, indexados, permanentes y más.
+            
+            <!-- Descripción -->
+            <p class="mb-4 text-dark">
+              <strong>IUL:</strong> Seguro con crecimiento a interés compuesto y acceso a fondos en vida. <br>
+              <strong>Término (5, 10, 15, 20 años):</strong> Protección asequible con beneficios garantizados. <br>
+              <strong>Permanente:</strong> Cobertura de por vida con acumulación de valor en efectivo. 
             </p>
+
+            <!-- Botón -->
+            <a href="#" class="btn btn-gold">Más información</a>
           </div>
         </div>
+
         <!-- Seguro de Salud -->
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="service-item rounded h-100 p-5" style="background-color: #242b31;">
-            <div class="d-flex align-items-center ms-n5 mb-4">
-              <div class="service-icon flex-shrink-0 bg-gold rounded-end me-4" style="background-color: #09096d;">
-
-                <img class="img-fluid" src="img/icon/icon-01-light.png" alt="Seguro de Salud" />
-              </div>
-              <h4 class="mb-0" style="color:white">Seguros de Salud</h4>
+          <div class="service-item rounded h-100 p-5 text-center position-relative" style="background-color: #242b31; background-image: url('assets/img/salud.png'); background-size: cover; background-position: center;">
+            
+            <!-- Título -->
+            <h4 class="mb-3 titulo-hover">Seguros de Salud</h4>
+            
+            <!-- Ícono centrado debajo del título -->
+            <div class="service-icon mx-auto mb-3">
+              <img class="img-fluid" src="img/icon/icon-01-primary.png" alt="Seguro de Salud" style="max-width: 80px;">
             </div>
-            <p class="mb-4" style="color: white;">
-              Cobertura para todas las edades: Obamacare, Medicare y seguros complementarios.
+            
+            <!-- Descripción -->
+            <p class="mb-4 text-dark">
+              <strong>Obamacare & Medicare:</strong> Cobertura accesible y beneficios para personas mayores. <br>
+              <strong>Privados:</strong> Planes personalizados según tus necesidades y presupuesto. <br>
+              <strong>Complementarios:</strong> Cobertura para cáncer, odontología, visión, audición y cardiología.
             </p>
+
+            <!-- Botón -->
+            <a href="#" class="btn btn-gold">Más información</a>
           </div>
         </div>
-        <!-- Seguros Complementarios -->
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="service-item rounded h-100 p-5" style="background-color: #242b31;">
-            <div class="d-flex align-items-center ms-n5 mb-4">
-              <div class="service-icon flex-shrink-0 bg-gold rounded-end me-4" style="background-color: #09096d;">
 
-                <img class="img-fluid" src="img/icon/icon-05-light.png" alt="Seguros Complementarios" />
-              </div>
-              <h4 class="mb-0" style="color:white">Seguros Complementarios</h4>
-            </div>
-            <p class="mb-4" style="color: white;">
-              Planes para cubrir gastos dentales, auditivos, oftalmológicos, cáncer y accidentes.
-            </p>
-          </div>
-        </div>
-        <!-- Seguro de Gastos Finales -->
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="service-item rounded h-100 p-5" style="background-color: #242b31;">
-            <div class="d-flex align-items-center ms-n5 mb-4">
-              <div class="service-icon flex-shrink-0 bg-gold rounded-end me-4" style="background-color: #09096d;">
-
-                <img class="img-fluid" src="img/icon/icon-02-light.png" alt="Gastos Finales" />
-              </div>
-              <h4 class="mb-0" style="color:white">Gastos Finales</h4>
-            </div>
-            <p class="mb-4" style="color: white;">
-              Protege a tu familia con cobertura para funeraria, traslado y entierro sin preocupaciones.
-            </p>
-          </div>
-        </div>
-        <!-- Seguro de Vida Indexado -->
+        <!-- Inversión -->
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="service-item rounded h-100 p-5" style="background-color: #242b31;">
-            <div class="d-flex align-items-center ms-n5 mb-4">
-              <div class="service-icon flex-shrink-0 bg-gold rounded-end me-4" style="background-color: #09096d;">
-
-                <img class="img-fluid" src="img/icon/icon-07-light.png" alt="Vida Indexado" />
-              </div>
-              <h4 class="mb-0" style="color:white">Vida Indexado</h4>
-            </div>
-            <p class="mb-4" style="color: white;">
-              Un seguro de vida que crece con interés compuesto y permite disfrutarlo en vida.
+          <div class="service-item rounded h-100 p-5 text-center position-relative" style="background-color: #242b31; background-image: url('assets/img/inversion.png'); background-size: cover; background-position: center;">
+            
+            <!-- Título -->
+            <h4 class="mb-3 titulo-hover">Inversión</h4>
+            
+            <!-- Ícono centrado debajo del título -->
+            <div class="service-icon mx-auto mb-3">
+              <img class="img-fluid" src="img/icon/icon-07-primary.png" alt="Inversión" style="max-width: 80px;">
+            </div>        
+            
+            <!-- Descripción -->
+            <p class="mb-4 text-dark">
+              <strong>Bank Infinity:</strong> Alternativa bancaria con mayor rendimiento y protección. <br>
+              <strong>Anualidades:</strong> Inversión segura con pagos garantizados de por vida. <br>
+              Planifica tu retiro con estabilidad y tranquilidad financiera.
             </p>
-          </div>
-        </div>
-        <!-- Bank Infinity -->
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="service-item rounded h-100 p-5" style="background-color: #242b31;">
-            <div class="d-flex align-items-center ms-n5 mb-4">
-              <div class="service-icon flex-shrink-0 bg-gold rounded-end me-4" style="background-color: #09096d;">
 
-                <img class="img-fluid" src="img/icon/icon-06-light.png" alt="Bank Infinity" />
-              </div>
-              <h4 class="mb-0" style="color:white">Bank Infinity</h4>
-            </div>
-            <p class="mb-4" style="color: white;">
-              Crecimiento financiero con seguros de vida que generan ahorro y préstamos inteligentes.
-            </p>
+            <!-- Botón -->
+            <a href="#" class="btn btn-gold">Más información</a>
           </div>
         </div>
       </div>
@@ -360,22 +354,19 @@
 
 
   <!-- Sección de Contacto BMKF Insurance -->
-  <div class="container-fluid appointment my-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+  <div class="container-fluid appointment my-5 py-5 wow fadeIn" data-wow-delay="0.1s"
+     style="background-image: url('assets/img/form.png'); background-size: cover; background-position: left; background-repeat: no-repeat;">
     <div class="container py-5">
       <div class="row g-5">
         <!-- Información sobre BMKF Insurance -->
-        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-          <h1 class="display-6 text-white mb-5">
-            Protegiendo tu futuro con los mejores seguros
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s" style="padding-top: 10%;">
+          <h1 class="display-6 text-white">
+            ¡No pierdas más tiempo!
+            Solicita tu cotización hoy y recibe una asesoría gratuita con un experto en seguros.
           </h1>
-          <p class="text-white mb-5">
-            En BMKF Insurance, nos especializamos en ofrecerte las mejores opciones en seguros de vida, salud y
-            planificación financiera. Nuestro compromiso es proteger lo que más importa: tu bienestar y el de tu
-            familia.
-          </p>
-          <div class="bg-white rounded p-3">
-            <img class="flex-shrink-0 me-3 img-fluid" src="img/logos.jpg" alt="BMKF Insurance" />
-          </div>
+          <h3 class="text-white">
+            Confía en nuestros expertos y asegura tanto la salud de tu familia como la estabilidad de tus finanzas.
+          </h3>
         </div>
         <!-- Formulario de Contacto -->
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -496,8 +487,10 @@
   <div class="container-xxl py-5">
     <div class="container">
       <div class="text-center mx-auto" style="max-width: 500px">
-        <h1 class="display-6 mb-5">Lo que dicen nuestros clientes</h1>
+        <h1 class="display-6 mb-3">¿Listo para un servicio de seguros de salud excepcional?</h1>
+        <h3 class="mb-5">Descubre lo que dicen quienes ya confían en nosotros.</h3>
       </div>
+    
       <div class="row g-5">
         <!-- Imágenes de testimonio a la izquierda -->
         <div class="col-lg-3 d-none d-lg-block">
@@ -551,6 +544,13 @@
     </div>
   </div>
   <!-- Fin de Testimonios BMKF Insurance -->
+  <div class="container-fluid my-5 py-5 text-center" style="background-image: url('img/contacto.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <h2 class="display-6 mb-4">¡Esta es tu oportunidad!</h2>
+    <h4 class="mb-4">Ponte en contacto con nosotros y en cuestión de minutos estaremos a tu disposición.</h4>
+    <h4 class="mb-5">Evita los riesgos de elegir una póliza que pueda perjudicar tus finanzas a largo plazo.</h4>
+    <h4 class="mb-5"><strong>Recibe una asesoría GRATUITA y sin compromiso alguno.</strong></h4>
+    <a href="#" class="btn btn-gold py-3 px-5">Contáctanos ahora</a>
+</div>
 
 
   <!-- Back to Top -->
